@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: rgba(180, 182, 184, 0.651);
+    font-family: 'Kalam', cursive;
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: black;
+}
+header{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.699),rgba(180, 182, 184, 0));
+    height: auto;
+
+}
+#persona{
+    display: inline-block;
+    border-radius: 55%;
+    margin: 2rem 0rem 0rem 1rem;
+}
+h1{
+    display: inline-block;
+
+
+}
+nav{
+    margin: 0.5rem 1rem 3rem 1rem;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li{
+    width: 25%;
+    background-color: rgb(185, 245, 210);
+    text-align: center;
+    border: 0.1rem black solid;
+    box-shadow: 0.2rem 0.3rem 0.1rem;
+}
+nav ul li a{
+    display: block;
+    color: black;
+    font-weight: 900;
+    font-size: 1.2rem;
+    text-decoration: none;
+    padding: 0.7rem;
+
+}
+nav ul li a:hover{
+    background-color: rgb(61, 104, 95);
+    color: wheat;
+}
+nav ul li a:visited{
+    text-decoration: none;
+}
+.titulos{
+    background-color: rgb(185, 245, 210);
+    margin: 1rem 3rem 2rem 3rem;
+    padding: 0.3rem;
+    border: 0.05rem solid black;
+    font-size: 1.2rem;
+}
+.tituText{
+
+    display: inline-block;
+    margin-left: 5rem;
+
+}
+.titulos img{
+    float: right;
+    margin-right: 3rem;
+
+}
+p{
+    margin: 0rem 4rem 0rem 4rem;
+    text-align: justify;
+    font-weight: normal;
+    line-height: 2rem;
+}
+.listExp{
+    margin-left: 5rem;
+    list-style: inside;
+    line-height: 3rem;
+}
+button{
+    margin: 0rem 4rem 0rem 4rem;
+}
+
+#divCurs{
+    display: flex;
+}
+#divCurs button{
+    border-radius: 10%;
+    margin: 0;
+    box-shadow: 0.2rem 0.2rem 0.3rem;
+}
+#textButton{
+    display: none;
+}
+#esconder{
+    border-radius: 10%;
+    box-shadow: 0.2rem 0.2rem 0.3rem;
+}
+.formulario{
+    display: grid;
+    margin: 1rem 0rem 1rem 5rem;
+    max-width: 30%;
+}
+#asunto{
+    height: 10rem;
+    overflow-wrap: anywhere;
+}
+#submit{
+    margin-top: 1rem;
+    width: 30%;
+    border-radius: 10%;
+    box-shadow: 0.2rem 0.2rem 0.3rem;
+}

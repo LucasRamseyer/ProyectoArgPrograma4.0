@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Ramseyer Lucas</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Kalam:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/icon.png">
+</head>
+<body>
+    <header>
+        <img id="persona" src="img/perfil.jpg" alt="imagen personal">
+        <h1>Peter Gibson</h1>
+    </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="#exp">Experiencia</a>
+            </li>
+            <li>
+                <a href="#edu">Educacion</a>
+            </li>
+            <li>
+                <a href="#proy">Proyectos</a>
+            </li>
+            <li>
+                <a href="#cont">Contacto</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <div>
+            <div class="titulos">
+                <h2 class="tituText">Sobre Mi</h2>
+                <img src="img/yo.png" alt="imagen-yo">
+            </div>
+            <p>Soy Peter Gibson, especialista en full stack. Tengo experiencia con trabajo en equipo y cuento con empatía para la resolución de problemas. Considero que una empresa es como una gran familia, e intento que el clima profesional sea el mejor posible en trato y mejoras para cada uno de nosotros</p>
+            <p>Tengo un alto sentido del compromiso y la responsabilidad por lo que puedo garantizar que la tarea que me sea asignada será gestionada con diligencia. No obstante, cuando en ocasiones surgen dificultades que puedan entorpecer el desarrollo de la actividad, propongo soluciones y alternativas útiles para acelerar los tiempos de respuesta</p>
+            <p>
+                Un poco mas sobre mi, tengo 32años, provengo de un pequeño pueblo de la provincia de Santa Fe, Argentina.
+            </p>
+        </div>
+        <div>
+            <div class="titulos" id="exp">
+                <h3 class="tituText">Experiencia</h3>
+                <img src="img/exp.png" alt="experiencia">
+            </div>
+            <p>0/2018 -  Presente Analista - Programador, Servicios Técnicos IT, Bilbao</p>
+            <ul class="listExp">
+                <li>Toma de requerimientos con el cliente </li>
+                <li>Análisis de requerimientos y diseño de aplicaciones </li>
+                <li>Desarrollo de aplicaciones utilizando Javascript, PHP, MySQL </li>
+            </ul>
+            <p>12/2014 - 10/2018 Programador Full Stack, Finanbest, Madrid</p>
+            <ul class="listExp">
+                <li>Desarrollo Front End y Back End de aplicaciones con Typescript, Javascript, PHP, MySQL, HTML5</li>
+                <li>Realización de test de aplicaciones</li>
+                <li>Solución de incidencias</li>
+            </ul>
+            <p>07/2011 - 12/2014 Programadora web, Sistemas Informáticos SL, Madrid</p>
+            <ul class="listExp">
+                <li>Desarrollo de aplicaciones web para clientes de la empresa del sector financiero utilizando Javascript, PHP </li>
+                <li>Mantenimiento de aplicaciones web</li>
+                <li>Maquetación HTML5, CSS3, Bootstrap </li>
+                <li>Manejo de datos XML, JSON </li>
+            </ul>
+>
+        </div>
+        <div class="divEdu" id="edu">  
+            <div class="titulos">
+                <h3 class="tituText">Educación</h3>
+                <img src="img/educacion.png" alt="educacion">
+            </div>
+            <p>Secundaria Completa</p>
+            <p>Digital House - Full Stack</p>
+            <p>Ingles Avanzado: C1 Business Higher (BEC Higher) Cambridge </p>
+            <div id="divCurs">
+                <p>Otros cursos</p>
+                <button id="verMas">ver mas</button>
+            </div>
+            <div id="textButton">
+                <p>Diseño UX/UI CoderHouse</p>
+                <p>Ciberseguridad CoderHouse</p>
+                <p>Photoshop e Illustrator CoderHouse</p>
+                <p>Data Analytics CoderHouse</p>
+                <p>Data Science CoderHouse</p>
+                <button id="esconder">esconder</button>
+            </div>
+        </div>
+        <div>
+            <div class="titulos" id="proy">
+                <h4 class="tituText">Proyectos</h4>
+                <img src="img/proyectos.png" alt="proyecto">
+            </div>
+            <p>
+                <a href="https://fridaamoblamientos.000webhostapp.com/" target="_blank">Frida Amoblamientos</a>
+            </p>
+            <p>
+                <a href="https://9gag.com/" target="_blank">9gag</a>
+            </p>
+            <p>
+                <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+            </p>
+            <p>
+                <a href="https://www.netflix.com" target="_blank">Netflix</a>
+            </p>
+        </div>
+        <div>
+            <div class="titulos" id="cont">
+                <h4 class="tituText">Contacto</h4>
+                <img src="img/contacto.png" alt="contacto">
+            </div>
+            <p>Puede enviar un correo directamente a mi persona, acercarse a mi lugar de trabajo o completar el siguiente formulario, el cual sera respondido en la brevedad.</p>
+            <p>peter.gibson@example.com.ar</p>
+            <p>Gv. Candioti 1578, Reconquista, Santa Fe, Argentina</p>
+            <form class="formulario" action="">
+                <label for="Nombre">Nombre Completo</label>
+                <input type="text" required>
+                <label for="email">Correo Electronico</label>
+                <input type="email" required>
+                <label for="asunto">Asunto</label>
+                <input id="asunto" type="text" required>
+                <label for="Nombre">Telefono</label>
+                <input type="number">
+                <input id="submit" type="submit" value="Enviar">
+            </form>
+        </div>
+    </main>
+    <script src="js/functions.js"></script>
+</body>
+</html>
